@@ -53,7 +53,7 @@ async function showMeme() {
 showBtn.addEventListener('click', showMeme )
 
 txt_box.addEventListener('keydown', (e) => {
-    console.log(e);
+    console.log(e); //to know key inputs
     if (e.key === 'Enter')
         
         showMeme();

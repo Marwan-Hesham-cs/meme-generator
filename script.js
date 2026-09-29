@@ -27,6 +27,7 @@ async function showMeme() {
 
                 //index of the selected meme, we use .data to access the memes from the object 'data'
                 let sel_meme = memes.data.memes[number];
+                document.title = `Meme: ${sel_meme.name}`;
 
                 gallery.innerHTML = `
             <div class=" justify-content-center w-50 h-25">
